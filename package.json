@@ -1,0 +1,29 @@
+{
+  "name": "nostrkey",
+  "version": "1.0.0",
+  "description": "nostr key generation",
+  "main": "/src/nostrkey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerbertInk/nostrkey.git"
+  },
+  "keywords": [
+    "nostr",
+    "key",
+    "generation"
+  ],
+  "author": "Ink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HerbertInk/nostrkey/issues"
+  },
+  "homepage": "https://github.com/HerbertInk/nostrkey#readme",
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}

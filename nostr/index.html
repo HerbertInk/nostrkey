@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostr Key Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nostr Key Generator</h1>
+        <button id="generateBtn">Generate Keys</button>
+        <div id="keysDisplay" style="display:none;">
+            <p><strong>Mnemonic:</strong> <span id="mnemonic"></span></p>
+            <p><strong>Public Key:</strong> <span id="publicKey"></span></p>
+            <p><strong>Private Key:</strong> <span id="privateKey"></span></p>
+        </div>
+    </div>
+    <script src="/src/nostrkey.js"></script>
+</body>
+</html>
