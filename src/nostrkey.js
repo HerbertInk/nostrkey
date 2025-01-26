@@ -3,7 +3,7 @@ const bip39 = require('bip39');
 const nacl = require('tweetnacl');
 const naclUtil = require('tweetnacl-util');
 
-document.getElementById('generateBtn').addEventListener('click', function() {
+document.getElementById('generateBtn').addEventListener('DOMContentLoaded', function() {
     try {
         const { mnemonic, privateKey, publicKey } = generateNostrKeys();
         document.getElementById('mnemonic').innerText = mnemonic;
